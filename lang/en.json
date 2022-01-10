@@ -1,0 +1,22 @@
+{
+  "FLYINGCIRCUS.AbilityStr": "Strength",
+  "FLYINGCIRCUS.AbilityCon": "Constitution",
+  "FLYINGCIRCUS.AbilityDex": "Dexterity",
+  "FLYINGCIRCUS.AbilityInt": "Intelligence",
+  "FLYINGCIRCUS.AbilityWis": "Wisdom",
+  "FLYINGCIRCUS.AbilityCha": "Charisma",
+
+  "FLYINGCIRCUS.AbilityStrAbbr": "str",
+  "FLYINGCIRCUS.AbilityConAbbr": "con",
+  "FLYINGCIRCUS.AbilityDexAbbr": "dex",
+  "FLYINGCIRCUS.AbilityIntAbbr": "int",
+  "FLYINGCIRCUS.AbilityWisAbbr": "wis",
+  "FLYINGCIRCUS.AbilityChaAbbr": "cha",
+
+  "FLYINGCIRCUS.EffectCreate": "Create Effect",
+  "FLYINGCIRCUS.EffectToggle": "Toggle Effect",
+  "FLYINGCIRCUS.EffectEdit": "Edit Effect",
+  "FLYINGCIRCUS.EffectDelete": "Delete Effect",
+
+  "FLYINGCIRCUS.Add": "Add"
+}
