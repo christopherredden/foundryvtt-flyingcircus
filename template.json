@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["character", "npc"],
+    "types": ["character", "npc", "aircraft"],
     "templates": {
       "base": {
         "health": {
@@ -16,6 +16,68 @@
         "biography": ""
       }
     },
+    "aircraft": {
+        "templates": ["base"],
+        "attributes": {
+            "price": {
+                "value": 1
+            }
+            "upkeep": {
+                "value": 1
+            }
+            "toughness": {
+                "value": 1,
+                "min": 1,
+                "max": 1
+            }
+            "strain": {
+                "value": 1,
+                "min": 1,
+                "max": 1
+            }
+            "escape": {
+                "value": 0
+            },
+            "crash": {
+                "value": -1
+            },
+            "stress": {
+                "value": 1
+            }
+            "visibility": {
+                "value": 0
+            },
+            "energyloss": {
+                "value": 3
+            },
+            "turnbleed": {
+                "value": 2
+            },
+            "stability": {
+                "value": -1
+            },
+            "altitude": {
+                "value": 0
+            },
+            "speed": {
+                "value": 0
+            },
+            "dropoff": {
+                "value": 0
+            },
+            "fuel": {
+                "value": 12,
+                "min": 0,
+                "max": 12
+            }
+            "gforce": {
+                "value": 0,
+                "min": 0,
+                "max": 10
+            }
+        }
+    },
+            
     "character": {
       "templates": ["base"],
       "attributes": {
