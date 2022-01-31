@@ -11,5 +11,6 @@
     "systems/flyingcircus/templates/actor/parts/actor-items.html",
     "systems/flyingcircus/templates/actor/parts/actor-spells.html",
     "systems/flyingcircus/templates/actor/parts/actor-effects.html",
+    "systems/flyingcircus/templates/actor/parts/actor-moves.html",
   ]);
 };

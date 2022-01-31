@@ -36,6 +36,7 @@ export class FlyingcircusActor extends Actor {
     // Make separate methods for each Actor type (character, npc, etc.) to keep
     // things organized.
     this._prepareCharacterData(actorData);
+    this._prepareAircraftData(actorData);
     this._prepareNpcData(actorData);
   }
 
@@ -44,6 +45,22 @@ export class FlyingcircusActor extends Actor {
    */
   _prepareCharacterData(actorData) {
     if (actorData.type !== 'character') return;
+
+    // Make modifications to data here. For example:
+    const data = actorData.data;
+
+    // Loop through ability scores, and add their modifiers to our sheet output.
+    for (let [key, ability] of Object.entries(data.abilities)) {
+      // Calculate the modifier using d20 rules.
+      ability.mod = Math.floor((ability.value - 10) / 2);
+    }
+  }
+
+  /**
+ * Prepare Aircraft type specific data
+ */
+    _prepareAircraftData(actorData) {
+    if (actorData.type !== 'aircraft') return;
 
     // Make modifications to data here. For example:
     const data = actorData.data;
